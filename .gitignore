@@ -1,0 +1,20 @@
+# Arduino
+build/
+.pio/
+.vscode/
+*.bin
+*.elf
+*.map
+
+# Zugangsdaten und Schlüssel
+.env
+.env.*
+secrets.h
+credentials.h
+*.pem
+*.key
+
+# Betriebssystem und Office
+~$*.docx
+.DS_Store
+Thumbs.db
